@@ -54,19 +54,7 @@ const Basic = () => (
             <Menu.Item key="7"><Link to="/futable">表子格</Link></Menu.Item>
             <Menu.Item key="8"><Link to="/saleorder">销售订单</Link></Menu.Item>
           </SubMenu>
-          <SubMenu key="sub2" title={<span><Icon type="mail"/><span>我的</span></span>}>
-            <Menu.Item key="1"><Link to="/">主页</Link></Menu.Item>
-            <Menu.Item key="2"><Link to="/about">购物车</Link></Menu.Item>
-            <Menu.Item key="3"><Link to="/topics">购买记录 &nbsp; &nbsp; &nbsp;<Badge count={5}>
-            <a href="#" className="head-example" />
-           </Badge></Link></Menu.Item>
-            <Menu.Item key="4"><Link to="/login">登录</Link></Menu.Item>
-            <Menu.Item key="5"><Link to="/regist">注册</Link></Menu.Item>
-            <Menu.Item key="6"><Link to="/custtable">表格</Link></Menu.Item>
-            <Menu.Item key="7"><Link to="/futable">表子格</Link></Menu.Item>
-            <Menu.Item key="8"><Link to="/saleorder">销售订单</Link></Menu.Item>
-          </SubMenu>
-          <SubMenu key="sub4" title={<span><Icon type="camera"/><span>服务</span></span>}>
+          <SubMenu key="sub4" title={<span><Icon type="camera"/><span>数据可视化 bizCharts</span></span>}>
             <Menu.Item key="1"><Link to="/demo">主页</Link></Menu.Item>
             <Menu.Item key="2"><Link to="/radarFlowerLine">雷达</Link></Menu.Item>
             <Menu.Item key="3"><Link to="/gaugeColor">仪表 &nbsp; &nbsp; &nbsp;<Badge count={5}>
@@ -79,6 +67,18 @@ const Basic = () => (
             <Menu.Item key="8"><Link to="/donut">基础环图</Link></Menu.Item>
             <Menu.Item key="9"><Link to="/labelline">基础饼图</Link></Menu.Item>
             <Menu.Item key="10"><Link to="/arcpolar">关系图</Link></Menu.Item>
+          </SubMenu>
+          <SubMenu key="sub2" title={<span><Icon type="mail"/><span>我的</span></span>}>
+            <Menu.Item key="1"><Link to="/">主页</Link></Menu.Item>
+            <Menu.Item key="2"><Link to="/about">购物车</Link></Menu.Item>
+            <Menu.Item key="3"><Link to="/topics">购买记录 &nbsp; &nbsp; &nbsp;<Badge count={5}>
+            <a href="#" className="head-example" />
+           </Badge></Link></Menu.Item>
+            <Menu.Item key="4"><Link to="/login">登录</Link></Menu.Item>
+            <Menu.Item key="5"><Link to="/regist">注册</Link></Menu.Item>
+            <Menu.Item key="6"><Link to="/custtable">表格</Link></Menu.Item>
+            <Menu.Item key="7"><Link to="/futable">表子格</Link></Menu.Item>
+            <Menu.Item key="8"><Link to="/saleorder">销售订单</Link></Menu.Item>
           </SubMenu>
           <Menu.Item key="sub3"><Link to="/saleorder"><Icon type="setting"/>设置</Link></Menu.Item>
         </Menu>

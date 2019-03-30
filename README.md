@@ -1,7 +1,7 @@
 # learn-react
 # 前言
 
-react全家桶
+react全家桶 尽可能集成一些好玩的东西
 
 github地址：https://github.com/lmr520/learn-react.git
 
@@ -28,7 +28,7 @@ yo react-webpack
 
 ## 技术栈
 
-react+react-router+redux+ webpack + ES6 + fetch+antd + bizCharts
+react+react-router+redux+ webpack + ES6 + fetch+antd + uppy + bizCharts
 
 ## 项目结构
 
@@ -138,7 +138,7 @@ npm run dist //打包
 
 ## 效果演示
 
-[http://www.huayifeng.top:8080](http://www.huayifeng.top:8080)
+改天放服务器
 
 ## 核心代码说明
 
