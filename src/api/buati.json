@@ -1,0 +1,37 @@
+[{
+    "id": "a",
+    "name": "Nike 耐克官方MERCURIAL VELOCE III AGPRO刺客男子人造草地足球鞋",
+    "src": "a.jpg",
+    "price": "999",
+    "mashu": [37,38,39,40,41,42,43,44,45]
+  },{
+    "id":"b",
+    "name":"Nike 耐克官方 NIKE AIR MAX MOTION LW PREM 男子运动鞋 861537",
+    "src":"b.jpg",
+    "price":"649",
+    "mashu":[37,38,39,40,41,42,43,44,45]
+  },{
+    "id":"c",
+    "name":"Nike 耐克官方 NIKE LUNAR COMMAND BOA 男子高尔夫球鞋704699",
+    "src":"c.jpg",
+    "price":"1499",
+    "mashu":[37,38,39,40,41,42,43,44,45]
+  },{
+    "id": "d",
+    "name":"Nike 耐克官方 NIKE KD TREY 5 IV 男子篮球鞋 844571",
+    "src":"d.jpg",
+    "price":"799",
+    "mashu":[37,38,39,40,41,42,43,44,45]
+  },{
+    "id":"e",
+    "name":"Nike耐克官方MAGISTAORDENIIAG-PRO鬼牌男子人造草地足球鞋843811",
+    "src":"e.jpg",
+    "price":"999",
+    "mashu":[37,38,39,40,41,42,43,44,45]
+  },{
+    "id": "f",
+    "name":"Nike 耐克官方 NIKE ZOOM KD 9 ELITE LMTD EP 男子篮球鞋 AA0942",
+    "src":"f.jpg",
+    "price":"1399",
+    "mashu":[37,38,39,40,41,42,43,44,45]
+  }]
