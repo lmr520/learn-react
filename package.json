@@ -85,6 +85,8 @@
     "jquery": "^3.3.1",
     "normalize.css": "^4.0.0",
     "places.js": "^1.16.1",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.3.4",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-router": "^4.1.1",

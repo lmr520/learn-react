@@ -4,6 +4,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import Texty from 'rc-texty';
 const Uppy = require('@uppy/core')
 const Tus = require('@uppy/tus')
 const GoogleDrive = require('@uppy/google-drive')
@@ -103,7 +104,7 @@ class Login extends React.Component {
     </div>
       </div>
       <div style={{marginLeft:100}}>
-        <h1>React Examples</h1>
+        <h1><Texty>React Examples</Texty></h1>
 
         <h2>Inline Dashboard</h2>
         <label>
