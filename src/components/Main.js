@@ -29,13 +29,44 @@ import Saleorder from './SaleOrder'
 import Destination from './Destination'
 import Plan from './Plan'
 import Detail from './Detail'
-import {Menu, Icon,Badge} from 'antd'
+import {Menu,Badge,Row, Col,Avatar,Button,Icon,Dropdown} from 'antd'
+// import { Button, Icon } from 'semantic-ui-react'
 const SubMenu = Menu.SubMenu
+const menu = (
+  <Menu>
+    <Menu.Item key="1">1st menu item</Menu.Item>
+    <Menu.Item key="2">2nd menu item</Menu.Item>
+    <Menu.Item key="3">3rd menu item</Menu.Item>
+  </Menu>
+);
 const Basic = () => (
 
   <Router >
     <div className="clear container-main">
-      <div className="fl">
+    <div className="indextitle">
+    <div className="gutter-example">
+    <Row gutter={16}>
+      <Col span={4}>
+      <div style={{ background: 'rgb(190, 200, 200)',height:40,width:243}}>
+    <Button style={{width:243,height:40}} ghost><Icon type="cloud" style={{float:"left"}}/>云平台</Button>
+  </div>
+      </Col>
+      <Col span={16}>
+      <div></div>
+      </Col>
+      <Col span={4} >
+        <div>
+        <Dropdown overlay={menu} style={{marginTop:10}}>
+   <Button type="gohost" style={{marginTop:5}}><Icon type="mail" theme="failled"></Icon>消息<Badge color="##87d068"  count={5} /></Button>
+  </Dropdown>
+    <Avatar style={{ backgroundColor: '#87d068',float:"right",marginRight:50}} icon="user" />
+ </div>
+      </Col>
+    </Row>
+  </div>
+   
+    </div>
+      <div className="fl">  
     <Menu 
           theme={'dark'}
           style={{width: 240}}
@@ -70,7 +101,7 @@ const Basic = () => (
             <Menu.Item key="m10"><Link to="/arcpolar">关系图</Link></Menu.Item>
           </SubMenu>
           <SubMenu key="sub2" title={<span><Icon type="mail"/><span>我的</span></span>}>
-            <Menu.Item key="mi1"><Link to="/">主页</Link></Menu.Item>
+            <Menu.Item key="mi1"><Link to="/mine">主页</Link></Menu.Item>
           </SubMenu>
           <Menu.Item key="sub3"><Link to=""><Icon type="setting"/>设置</Link></Menu.Item>
         </Menu>

@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "clean": "rimraf dist/*",
-    "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./dist",
+    "copy": "copyfiles -f ./src/index.html ./src/images/yyclound.ico ./dist",
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
     "posttest": "npm run lint",
@@ -53,7 +53,7 @@
     "null-loader": "^0.1.1",
     "open": "0.0.5",
     "phantomjs-prebuilt": "^2.0.0",
-    "prop-types": "^15.5.10",
+    "prop-types": "^15.7.2",
     "rc-queue-anim": "^1.0.1",
     "react-addons-test-utils": "^15.0.0",
     "react-dom": "^15.5.4",
@@ -72,6 +72,8 @@
   },
   "dependencies": {
     "@antv/data-set": "^0.10.2",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "@uppy/core": "^0.30.3",
     "@uppy/dashboard": "^0.30.3",
     "@uppy/instagram": "^0.30.3",

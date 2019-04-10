@@ -54,10 +54,12 @@ const Index = ({count,radiovalue}) => (
        <Tabs defaultActiveKey="1" tabPosition='top'>
     <TabPane tab={<span><Icon type="home" />主页</span>} key="1">
     <Carousel autoplay style={{marginLeft:200}}>
-    <div> <img src={'../images/a1.jpg'} alt=""/></div>
-    <div> <img src={'../images/a2.jpg'} alt=""/></div>
-    <div> <img src={'../images/a3.jpg'} alt=""/></div>
-    <div> <img src={'../images/a4.jpg'} alt=""/></div>
+    <div> <img className="img-co" src={'../images/a1.jpg'} alt=""/></div>
+    <div> <img  className="img-co" src={'../images/a2.jpg'} alt=""/></div>
+    <div> <img  className="img-co" src={'../images/a3.jpg'} alt=""/></div>
+    <div> <img className="img-co" src={'../images/a4.jpg'} alt=""/></div>
+    <div> <img  className="img-co" src={'../images/a5.jpg'} alt=""/></div>
+    <div> <img className="img-co" src={'../images/a6.jpg'} alt=""/></div>
   </Carousel>
     <Cascader options={options} onChange={onChange} placeholder="Please select" />
     <div>
